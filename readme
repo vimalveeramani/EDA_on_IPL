@@ -1,8 +1,34 @@
- Indian Premier League
+Exploring Data of Indian Premier League with Python from Kaggle dataset
+using pandas, numpy, os, matplotlib, seaborn
+
+What is EDA?
+EDA or Exploratory Data Analysis is taking an exhaustive look at the dataset and summarizing its main characteristics and finding generalized patterns often with the help of visualization techniques.
+
+Why EDA is Important?
+One can’t draw reliable conclusions from a massive quantity of data by just gleaning over it. Instead, one has to look at it carefully and methodically through an analytical lens.
+
+An EDA is meant to uncover the underlying structure of a dataset and expose the general trends, patterns, and relationships that may not be apparent.
+
+It may be tedious, boring, and/or overwhelming to derive insights by looking at plain numbers. Exploratory data analysis techniques have been devised as an aid in this situation.
+
+What is IPL?
 The Indian Premier League (IPL) is a professional Twenty20 cricket league, contested by eight teams based out of eight Indian cities. The league was founded by the Board of Control for Cricket in India (BCCI) in 2007.
-Throughout the years the teams have shuffled a bit here and there 
-for eg. 
-- In 2011 two teams Kochi Tuskers Kerela and Pune Warriors India were added but later got discarded.
-- In 2016 two teams Rising Pune SuperGiants and Gujurat Lions were added as a replacement to Chennai Super Kings and Rajasthan Royals that got banned.
-- In 2012 Hyderabad based Deccan Chargers played their last season, in next season(2013) Sunrisers Hyderabad were inducted representing Hyderabad.
-- In addition to this 2 teams namely 'Kings XI Punjab' and 'Delhi Daredevils' changed their name to 'Punjab Kings' and 'Delhi Capitals' respectively
+
+Various Libraries used in the project are:
+
+Pandas: It is a python library used mainly for data analysis, It allows importing data from various file formats such as comma-separated-values, JSON, SQL database tables or queries, and Microsoft Excel.
+
+Numpy: stands for Numerical Python, it’s a library consisting of multidimensional array objects and a collection of routines for processing those arrays.
+
+OS: The OS module in Python provides functions for interacting with the operating system.
+
+Matplotlib: It is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+
+Seaborn: It is a data visualization library built on top of matplotlib and closely integrated with pandas data structures in Python.
+
+Downloading the Dataset
+To begin Exploring the data we would first need some data (duh!). One can collect and compile their dataset using surveys, or can use openly available surveys from sites like UCI Machine Learning Repository, Kaggle, Google Data Search.
+
+For this project, we are using a Kaggle dataset IPL_Data_Set compiled by Ramji.
+
+The dataset can be downloaded using the `opendatasets` module from GitHub
